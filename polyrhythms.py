@@ -6,10 +6,10 @@ pg.mixer.init()
 pg.init()
 pg.mixer.set_num_channels(500)
 
-#Polyrhythm is the simplified ratio of the dimentions of the board 
-dimxs = [60] #Widths of the board
-dimys = [61] #Heigts of the board
-speeds = [0] #Speeds to run the animation at (1-10)
+#Polyrhythm is the simplified ratio of the dimensions of the board 
+dimxs = [60,120,399,400] #Widths of the board
+dimys = [61,122,299,300] #Heights of the board
+speeds = [5,5,7,] #Speeds to run the animation at (1-10)
 Stupid = False
 if Stupid == True:
     colors = ["red", "orange", "yellow", "green", "blue", "purple"]
